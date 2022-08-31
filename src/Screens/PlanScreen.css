@@ -1,0 +1,68 @@
+.planScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.renewal_date{
+    font-size: 0.85rem;
+    color: aliceblue;
+    opacity: 0.7;
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.renewal_date:hover{
+    opacity: 1;
+    transition: all ease-in 0.2s;
+}
+
+.planScreen_plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    padding: 10px 0;
+
+}
+
+.planScreen_plan:hover{
+    transition: all ease-in 0.2s;
+    opacity: 1;
+}
+
+/* .planScreen_info{
+    padding: 8px 0;
+} */
+.planScreen_info > h5{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.planScreen_info > h6{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: aliceblue;
+
+}
+
+
+.subscribeButton{
+    background-color: #e50914;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    
+}
+
+.premium_btn{
+    background-color: gray;
+
+}

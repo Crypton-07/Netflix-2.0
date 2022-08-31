@@ -1,0 +1,39 @@
+.row{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+    transition: all ease-in 0.1ms;
+}
+
+.row_poster{
+    max-height: 150px;
+    object-fit: contain;
+    margin-right: 10px;
+    width: 100%;
+    transition: all ease-in 0.35s;
+}
+
+.row_poster:hover{
+    transform: scale(1.07);
+    opacity: 1;
+}
+
+.row_posterLarge{
+    max-height: 250px;
+    transition: all ease-in 0.35s;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.09);
+}
+
